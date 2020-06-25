@@ -216,3 +216,23 @@ Evaluation of your submission will be based on the following criteria.
    they explained?
 1. Did you separate any concerns in your application? Why or why not?
 1. Does your solution use appropriate data types for the problem as described?
+
+
+
+DOCUMENTATION:
+
+please ensure you have flask, python installed
+run the program:
+python app.py
+
+Answers to the following questions:
+   - How did you test that your implementation was correct?
+        I tested the API responses using postman and several varied data sets.
+
+   - If this application was destined for a production environment, what would you add or change?
+          I would implement token authentication such you require permission to write and read to the database.
+          I would also implement a CI/CD pipeline using a framework such as Docker and automated integration tests and unit tests.
+
+   - What compromises did you have to make as a result of the time constraints of this challenge?
+          If time was not a constraint, i would have used a full stack web framework such as Django, whereas
+          in this case i opted for Flask, a microframework, due to the time constraints. 
