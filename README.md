@@ -232,6 +232,7 @@ Answers to the following questions:
    - If this application was destined for a production environment, what would you add or change?
           I would implement token authentication such you require permission to write and read to the database.
           I would also implement a CI/CD pipeline using a framework such as Docker and automated integration tests and unit tests.
+          Additionally, i would consider using Proto (google framework) simmilar to JSON which serializes and decodes faster and is more compressed. This would improve API speed and size, making it able to better scale to serve the entire company's payroll requirements.
 
    - What compromises did you have to make as a result of the time constraints of this challenge?
           If time was not a constraint, i would have used a full stack web framework such as Django, whereas
